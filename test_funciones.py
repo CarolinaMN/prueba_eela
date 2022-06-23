@@ -24,6 +24,7 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(funciones.saludo("Carlos"), "Hola, Carlos")
         self.assertNotEqual(funciones.saludo("Lili"), "Hola, Lilii")
         self.assertNotEqual(funciones.saludo("Maria"), "Hola, Mariaa")
+        self.assertEqual(funciones.saludo("Karla"), "Hola, Karla")
 
 
 if __name__ == '__main__':
