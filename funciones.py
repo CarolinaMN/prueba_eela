@@ -29,6 +29,8 @@ def cubica(a):
 def saludo(name):
     return "Hola, " + name
 
+def cambio():
+    return "el cambio"
 
 primo(21)
 
