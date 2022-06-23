@@ -32,6 +32,10 @@ def saludo(name):
 def cambio():
     return "el cambio"
 
+    
+def cambio2():
+    return "el cambio2"
+
 primo(21)
 
 primo(0)
