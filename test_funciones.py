@@ -10,6 +10,7 @@ class TestUtils(unittest.TestCase):
         self.assertFalse(funciones.primo(8))
         self.assertFalse(funciones.primo(10))
         self.assertTrue(funciones.primo(7))
+        self.assertTrue(funciones.primo(7))
         self.assertEqual(funciones.primo(-3), "No se permiten números negativos.")
     
     def test_cubic(self):
